@@ -9,9 +9,9 @@ services:
       # MongoDB connection within the stack
       MONGO_CONNECTION: "mongodb://mongo:27017/Nightscout"
       # admin secret
-      API_SECRET: "xxxxxxxxx"
+      API_SECRET: "Kang@871025*&!)@%"
       # the URL to this Nightscout instance
-      BASE_URL: "https://xxxxxxxxxxxxx"
+      BASE_URL: "https://127.0.0.1"
       # using a reverse proxy with SSL offloading
       INSECURE_USE_HTTP: "true"
       # deny access by default
@@ -38,7 +38,7 @@ services:
       BG_LOW: 3.9
 
       # website title by default
-      CUSTOM_TITLE: "Lex Docker"
+      CUSTOM_TITLE: "CGM"
       # use SI units by default
       DISPLAY_UNITS: "mmol/L"
       # use 24h time format by default
@@ -84,7 +84,7 @@ services:
 
   mongo:
     # For AX9000, can only use mongodb under version 4.x
-    image: mongo:4.4.17-rc0-focal
+    image: mongo:4.4.25-focal
     volumes:
     #For AX9000, please use "/mnt/docker_disk/mi_docker/mongodb:/data/db"
       - /mnt/docker_disk/mi_docker/mongodb:/data/db
