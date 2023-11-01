@@ -84,7 +84,7 @@ services:
 
   mongo:
     # For AX9000, can only use mongodb under version 4.x
-    image: mongo:4.4.25-focal
+    image: mongo:4.4.17-rc0-focal
     volumes:
     #For AX9000, please use "/mnt/docker_disk/mi_docker/mongodb:/data/db"
       - /mnt/docker_disk/mi_docker/mongodb:/data/db
