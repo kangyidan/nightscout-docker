@@ -9,7 +9,7 @@ services:
       # MongoDB connection within the stack
       MONGO_CONNECTION: "mongodb://mongo:27017/Nightscout"
       # admin secret
-      API_SECRET: "Kang@871025*&!)@%"
+      API_SECRET: "871025871025"
       # the URL to this Nightscout instance
       BASE_URL: "https://127.0.0.1"
       # using a reverse proxy with SSL offloading
